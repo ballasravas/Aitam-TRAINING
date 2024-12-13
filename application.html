@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Registration Form</title>
+</head>
+<body>
+
+    
+        <h1>User Registration Form</h1>
+        <form action=""></form>
+            
+            <fieldset>
+                <legend>Personal Details</legend>
+                
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name"placeholder="Enter your first name">
+                <br>
+                
+    
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name"placeholder="Enter your last name">
+            
+                <br>
+            
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address">
+                <br>
+                
+                
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" rplaceholder="Enter your phone number" >
+                <br>
+                
+                
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" >
+                <br>
+            </fieldset>
+            
+    
+            <fieldset>
+                <legend>Preferences</legend>
+                
+                
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <br>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <br>
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <br>
+                    <label for="other">Other</label>
+                <br>
+                
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select your country</option>
+                        <option value="us">United States</option>
+                        <option value="ca">Canada</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="in">India</option>
+                        <option value="aus">Australia</option>
+                    </select>
+                <br>
+                    <label for="EMAIL">Follow  to my Mail:</label>
+                    <input type="checkbox" id="EMAIL" name="EMAIL" value="yes">
+                
+                    <label for="Email">Yes, I want to receive updates</label>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Feedback</legend>
+                    <label for="feedback">Your Feedback:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback here..."></textarea>
+                <br>
+                    <label for="rating">Rate your experience:</label>
+                    <select id="rating" name="rating">
+                        <option value="1">1 - Very Poor</option>
+                        <option value="2">2 - Poor</option>
+                        <option value="3">3 - Average</option>
+                        <option value="4">4 - Good</option>
+                        <option value="5">5 - Excellent</option>
+                    </select>
+            </fieldset>
+        <button type="submit">Submit Registration</button>
+        </form>
+</body>
+</html>
