@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+#background-video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	
+}
+
+.tandoori {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color:  #1A1A1A;
+
+}
+
+.tandoori h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+    color: rgb(210,200,255);
+}
+.tandoori h2{
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: rgb(22,225,202);
+}
+
+.tandoori p {
+	font-size: 38px;
+	margin-bottom: 40px;
+    color: rgb(202,225,2);
+}
+
+.tandoori button {
+	background-color: #ff9900;
+	color: #fff;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.tandoori button:hover {
+	background-color: #ffa07a;
+}
