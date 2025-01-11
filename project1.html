@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beauty parlour Website Design</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <section id="banner">
+        
+     <img src="logosalon-removebg-preview.png" height="100px" width="150px" class="logo">
+   <div class="banner-text">
+    
+    <h1>Shi Salon Studio</h1>
+    <p>Style Your Self is Style Your Life</p>
+    <div class="banner-btn">
+        <a href="#"><span></span>Find Out</a>
+        <a href="#"><span></span> More</a>
+    </div>
+   </div>
+    </section>
+    <div id="sidenav">
+        <nav>
+        
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">TESTIMONAIALS</a></li>
+                <li><a href="#">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="menusalon/menu.png" id="menu">
+    </div>
+
+    <section id="feauture">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>Why Choose Us</h1>
+        </div>
+    </section>
+    <script>
+        var menubtn=document.getElementById("menubtn")  
+        var sideNav=document.getElementById("sideNav")
+        var menu=document.getElementById("menu")
+        sideNav.style.right=="-250px";
+        menubtn.oneclick=function(){
+            if(sideNav.style.right=="-250px"){
+                sideNav.style.right="0";
+                menu.src="menusalon/close.png";
+            }
+            else{
+              sideNav.style.right="-250px";
+          menu.src="menusalon/menu.png";
+            }
+        }
+    </script>
+</body>
+</html>
